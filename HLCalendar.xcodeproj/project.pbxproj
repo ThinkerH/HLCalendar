@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BE900D31E5E7CF000C482F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE900D21E5E7CF000C482F4 /* main.m */; };
+		7BE900D61E5E7CF000C482F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE900D51E5E7CF000C482F4 /* AppDelegate.m */; };
+		7BE900D91E5E7CF000C482F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE900D81E5E7CF000C482F4 /* ViewController.m */; };
+		7BE900DC1E5E7CF000C482F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BE900DA1E5E7CF000C482F4 /* Main.storyboard */; };
+		7BE900DE1E5E7CF000C482F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BE900DD1E5E7CF000C482F4 /* Assets.xcassets */; };
+		7BE900E11E5E7CF000C482F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BE900DF1E5E7CF000C482F4 /* LaunchScreen.storyboard */; };
+		7BE900EC1E5E7CF100C482F4 /* HLCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE900EB1E5E7CF100C482F4 /* HLCalendarTests.m */; };
+		7BE900F71E5E7CF100C482F4 /* HLCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE900F61E5E7CF100C482F4 /* HLCalendarUITests.m */; };
+		7BE9011B1E5E818000C482F4 /* CalendarDayCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE901141E5E818000C482F4 /* CalendarDayCVCell.m */; };
+		7BE9011C1E5E818000C482F4 /* CalenderHeaderCRV.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE901161E5E818000C482F4 /* CalenderHeaderCRV.m */; };
+		7BE9011D1E5E818000C482F4 /* HLCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE901181E5E818000C482F4 /* HLCalendar.m */; };
+		7BE9011E1E5E818000C482F4 /* HLCalendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9011A1E5E818000C482F4 /* HLCalendarVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BE900E81E5E7CF100C482F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BE900C61E5E7CF000C482F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BE900CD1E5E7CF000C482F4;
+			remoteInfo = HLCalendar;
+		};
+		7BE900F31E5E7CF100C482F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BE900C61E5E7CF000C482F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BE900CD1E5E7CF000C482F4;
+			remoteInfo = HLCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BE900CE1E5E7CF000C482F4 /* HLCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BE900D21E5E7CF000C482F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BE900D41E5E7CF000C482F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BE900D51E5E7CF000C482F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BE900D71E5E7CF000C482F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7BE900D81E5E7CF000C482F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7BE900DB1E5E7CF000C482F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BE900DD1E5E7CF000C482F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BE900E01E5E7CF000C482F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BE900E21E5E7CF000C482F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BE900E71E5E7CF100C482F4 /* HLCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BE900EB1E5E7CF100C482F4 /* HLCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLCalendarTests.m; sourceTree = "<group>"; };
+		7BE900ED1E5E7CF100C482F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BE900F21E5E7CF100C482F4 /* HLCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BE900F61E5E7CF100C482F4 /* HLCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLCalendarUITests.m; sourceTree = "<group>"; };
+		7BE900F81E5E7CF100C482F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BE901111E5E7F9A00C482F4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7BE901131E5E818000C482F4 /* CalendarDayCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDayCVCell.h; sourceTree = "<group>"; };
+		7BE901141E5E818000C482F4 /* CalendarDayCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDayCVCell.m; sourceTree = "<group>"; };
+		7BE901151E5E818000C482F4 /* CalenderHeaderCRV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderHeaderCRV.h; sourceTree = "<group>"; };
+		7BE901161E5E818000C482F4 /* CalenderHeaderCRV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderHeaderCRV.m; sourceTree = "<group>"; };
+		7BE901171E5E818000C482F4 /* HLCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCalendar.h; sourceTree = "<group>"; };
+		7BE901181E5E818000C482F4 /* HLCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLCalendar.m; sourceTree = "<group>"; };
+		7BE901191E5E818000C482F4 /* HLCalendarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCalendarVC.h; sourceTree = "<group>"; };
+		7BE9011A1E5E818000C482F4 /* HLCalendarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLCalendarVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BE900CB1E5E7CF000C482F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE900E41E5E7CF100C482F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE900EF1E5E7CF100C482F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BE900C51E5E7CF000C482F4 = {
+			isa = PBXGroup;
+			children = (
+				7BE900D01E5E7CF000C482F4 /* HLCalendar */,
+				7BE900EA1E5E7CF100C482F4 /* HLCalendarTests */,
+				7BE900F51E5E7CF100C482F4 /* HLCalendarUITests */,
+				7BE900CF1E5E7CF000C482F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BE900CF1E5E7CF000C482F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BE900CE1E5E7CF000C482F4 /* HLCalendar.app */,
+				7BE900E71E5E7CF100C482F4 /* HLCalendarTests.xctest */,
+				7BE900F21E5E7CF100C482F4 /* HLCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BE900D01E5E7CF000C482F4 /* HLCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				7BE901121E5E818000C482F4 /* HLCalendarVC */,
+				7BE900D41E5E7CF000C482F4 /* AppDelegate.h */,
+				7BE900D51E5E7CF000C482F4 /* AppDelegate.m */,
+				7BE900D71E5E7CF000C482F4 /* ViewController.h */,
+				7BE900D81E5E7CF000C482F4 /* ViewController.m */,
+				7BE901111E5E7F9A00C482F4 /* PrefixHeader.pch */,
+				7BE900DA1E5E7CF000C482F4 /* Main.storyboard */,
+				7BE900DD1E5E7CF000C482F4 /* Assets.xcassets */,
+				7BE900DF1E5E7CF000C482F4 /* LaunchScreen.storyboard */,
+				7BE900E21E5E7CF000C482F4 /* Info.plist */,
+				7BE900D11E5E7CF000C482F4 /* Supporting Files */,
+			);
+			path = HLCalendar;
+			sourceTree = "<group>";
+		};
+		7BE900D11E5E7CF000C482F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BE900D21E5E7CF000C482F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BE900EA1E5E7CF100C482F4 /* HLCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BE900EB1E5E7CF100C482F4 /* HLCalendarTests.m */,
+				7BE900ED1E5E7CF100C482F4 /* Info.plist */,
+			);
+			path = HLCalendarTests;
+			sourceTree = "<group>";
+		};
+		7BE900F51E5E7CF100C482F4 /* HLCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BE900F61E5E7CF100C482F4 /* HLCalendarUITests.m */,
+				7BE900F81E5E7CF100C482F4 /* Info.plist */,
+			);
+			path = HLCalendarUITests;
+			sourceTree = "<group>";
+		};
+		7BE901121E5E818000C482F4 /* HLCalendarVC */ = {
+			isa = PBXGroup;
+			children = (
+				7BE901131E5E818000C482F4 /* CalendarDayCVCell.h */,
+				7BE901141E5E818000C482F4 /* CalendarDayCVCell.m */,
+				7BE901151E5E818000C482F4 /* CalenderHeaderCRV.h */,
+				7BE901161E5E818000C482F4 /* CalenderHeaderCRV.m */,
+				7BE901171E5E818000C482F4 /* HLCalendar.h */,
+				7BE901181E5E818000C482F4 /* HLCalendar.m */,
+				7BE901191E5E818000C482F4 /* HLCalendarVC.h */,
+				7BE9011A1E5E818000C482F4 /* HLCalendarVC.m */,
+			);
+			path = HLCalendarVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BE900CD1E5E7CF000C482F4 /* HLCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BE900FB1E5E7CF100C482F4 /* Build configuration list for PBXNativeTarget "HLCalendar" */;
+			buildPhases = (
+				7BE900CA1E5E7CF000C482F4 /* Sources */,
+				7BE900CB1E5E7CF000C482F4 /* Frameworks */,
+				7BE900CC1E5E7CF000C482F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLCalendar;
+			productName = HLCalendar;
+			productReference = 7BE900CE1E5E7CF000C482F4 /* HLCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BE900E61E5E7CF100C482F4 /* HLCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BE900FE1E5E7CF100C482F4 /* Build configuration list for PBXNativeTarget "HLCalendarTests" */;
+			buildPhases = (
+				7BE900E31E5E7CF100C482F4 /* Sources */,
+				7BE900E41E5E7CF100C482F4 /* Frameworks */,
+				7BE900E51E5E7CF100C482F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BE900E91E5E7CF100C482F4 /* PBXTargetDependency */,
+			);
+			name = HLCalendarTests;
+			productName = HLCalendarTests;
+			productReference = 7BE900E71E5E7CF100C482F4 /* HLCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BE900F11E5E7CF100C482F4 /* HLCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BE901011E5E7CF100C482F4 /* Build configuration list for PBXNativeTarget "HLCalendarUITests" */;
+			buildPhases = (
+				7BE900EE1E5E7CF100C482F4 /* Sources */,
+				7BE900EF1E5E7CF100C482F4 /* Frameworks */,
+				7BE900F01E5E7CF100C482F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BE900F41E5E7CF100C482F4 /* PBXTargetDependency */,
+			);
+			name = HLCalendarUITests;
+			productName = HLCalendarUITests;
+			productReference = 7BE900F21E5E7CF100C482F4 /* HLCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BE900C61E5E7CF000C482F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "花磊";
+				TargetAttributes = {
+					7BE900CD1E5E7CF000C482F4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U63KAYW5KQ;
+						ProvisioningStyle = Automatic;
+					};
+					7BE900E61E5E7CF100C482F4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U63KAYW5KQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7BE900CD1E5E7CF000C482F4;
+					};
+					7BE900F11E5E7CF100C482F4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U63KAYW5KQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7BE900CD1E5E7CF000C482F4;
+					};
+				};
+			};
+			buildConfigurationList = 7BE900C91E5E7CF000C482F4 /* Build configuration list for PBXProject "HLCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BE900C51E5E7CF000C482F4;
+			productRefGroup = 7BE900CF1E5E7CF000C482F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BE900CD1E5E7CF000C482F4 /* HLCalendar */,
+				7BE900E61E5E7CF100C482F4 /* HLCalendarTests */,
+				7BE900F11E5E7CF100C482F4 /* HLCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BE900CC1E5E7CF000C482F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE900E11E5E7CF000C482F4 /* LaunchScreen.storyboard in Resources */,
+				7BE900DE1E5E7CF000C482F4 /* Assets.xcassets in Resources */,
+				7BE900DC1E5E7CF000C482F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE900E51E5E7CF100C482F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE900F01E5E7CF100C482F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BE900CA1E5E7CF000C482F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE900D91E5E7CF000C482F4 /* ViewController.m in Sources */,
+				7BE9011E1E5E818000C482F4 /* HLCalendarVC.m in Sources */,
+				7BE9011D1E5E818000C482F4 /* HLCalendar.m in Sources */,
+				7BE9011C1E5E818000C482F4 /* CalenderHeaderCRV.m in Sources */,
+				7BE900D61E5E7CF000C482F4 /* AppDelegate.m in Sources */,
+				7BE900D31E5E7CF000C482F4 /* main.m in Sources */,
+				7BE9011B1E5E818000C482F4 /* CalendarDayCVCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE900E31E5E7CF100C482F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE900EC1E5E7CF100C482F4 /* HLCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE900EE1E5E7CF100C482F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE900F71E5E7CF100C482F4 /* HLCalendarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BE900E91E5E7CF100C482F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BE900CD1E5E7CF000C482F4 /* HLCalendar */;
+			targetProxy = 7BE900E81E5E7CF100C482F4 /* PBXContainerItemProxy */;
+		};
+		7BE900F41E5E7CF100C482F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BE900CD1E5E7CF000C482F4 /* HLCalendar */;
+			targetProxy = 7BE900F31E5E7CF100C482F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BE900DA1E5E7CF000C482F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BE900DB1E5E7CF000C482F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BE900DF1E5E7CF000C482F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BE900E01E5E7CF000C482F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BE900F91E5E7CF100C482F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BE900FA1E5E7CF100C482F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BE900FC1E5E7CF100C482F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U63KAYW5KQ;
+				GCC_PREFIX_HEADER = HLCalendar/PrefixHeader.pch;
+				INFOPLIST_FILE = HLCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pktech.HLCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BE900FD1E5E7CF100C482F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U63KAYW5KQ;
+				GCC_PREFIX_HEADER = HLCalendar/PrefixHeader.pch;
+				INFOPLIST_FILE = HLCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pktech.HLCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7BE900FF1E5E7CF100C482F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U63KAYW5KQ;
+				INFOPLIST_FILE = HLCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pktech.HLCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLCalendar.app/HLCalendar";
+			};
+			name = Debug;
+		};
+		7BE901001E5E7CF100C482F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U63KAYW5KQ;
+				INFOPLIST_FILE = HLCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pktech.HLCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLCalendar.app/HLCalendar";
+			};
+			name = Release;
+		};
+		7BE901021E5E7CF100C482F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = U63KAYW5KQ;
+				INFOPLIST_FILE = HLCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pktech.HLCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HLCalendar;
+			};
+			name = Debug;
+		};
+		7BE901031E5E7CF100C482F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = U63KAYW5KQ;
+				INFOPLIST_FILE = HLCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pktech.HLCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HLCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BE900C91E5E7CF000C482F4 /* Build configuration list for PBXProject "HLCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BE900F91E5E7CF100C482F4 /* Debug */,
+				7BE900FA1E5E7CF100C482F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BE900FB1E5E7CF100C482F4 /* Build configuration list for PBXNativeTarget "HLCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BE900FC1E5E7CF100C482F4 /* Debug */,
+				7BE900FD1E5E7CF100C482F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BE900FE1E5E7CF100C482F4 /* Build configuration list for PBXNativeTarget "HLCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BE900FF1E5E7CF100C482F4 /* Debug */,
+				7BE901001E5E7CF100C482F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BE901011E5E7CF100C482F4 /* Build configuration list for PBXNativeTarget "HLCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BE901021E5E7CF100C482F4 /* Debug */,
+				7BE901031E5E7CF100C482F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BE900C61E5E7CF000C482F4 /* Project object */;
+}
