@@ -31,11 +31,22 @@
 // 获取date当天的农历
 - (NSString *)chineseCalendarOfDate:(NSDate *)date;
 
-- (NSMutableArray *)monthsWithDate:(NSDate *)date monthes:(int)monthes;
-
+// 将指定格式的字符串转成NSDate
 - (NSDate *)dateWithDateStr:(NSString *)dateStr format:(NSString *)format;
 
+// 根据指定的format将NSDate转成字符串
 - (NSDate *)dateStrWithDate:(NSDate *)date format:(NSString *)format;
+
+
+/**
+ 获取自指定日期开始的月数据
+
+ @param date 从该日期所在月开始获取
+ @param monthes 获取的月的个数
+ @return 月数据
+ */
+- (NSMutableArray *)monthsWithDate:(NSDate *)date monthes:(int)monthes;
+
 
 /**
  获取指定日期的日历数据

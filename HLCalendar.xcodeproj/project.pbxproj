@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B6B0F4F1E5F36FF00CBC42A /* NSArray+ ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6B0F491E5F36FF00CBC42A /* NSArray+ ZXPUnicode.m */; };
+		7B6B0F501E5F36FF00CBC42A /* NSDictionary+ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6B0F4C1E5F36FF00CBC42A /* NSDictionary+ZXPUnicode.m */; };
+		7B6B0F511E5F36FF00CBC42A /* NSObject+ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6B0F4E1E5F36FF00CBC42A /* NSObject+ZXPUnicode.m */; };
 		7BE900D31E5E7CF000C482F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE900D21E5E7CF000C482F4 /* main.m */; };
 		7BE900D61E5E7CF000C482F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE900D51E5E7CF000C482F4 /* AppDelegate.m */; };
 		7BE900D91E5E7CF000C482F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE900D81E5E7CF000C482F4 /* ViewController.m */; };
@@ -39,6 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B6B0F401E5F346D00CBC42A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7B6B0F421E5F34A800CBC42A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		7B6B0F431E5F34A800CBC42A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		7B6B0F461E5F34AC00CBC42A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		7B6B0F491E5F36FF00CBC42A /* NSArray+ ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ ZXPUnicode.m"; sourceTree = "<group>"; };
+		7B6B0F4A1E5F36FF00CBC42A /* NSArray+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ZXPUnicode.h"; sourceTree = "<group>"; };
+		7B6B0F4B1E5F36FF00CBC42A /* NSDictionary+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZXPUnicode.h"; sourceTree = "<group>"; };
+		7B6B0F4C1E5F36FF00CBC42A /* NSDictionary+ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZXPUnicode.m"; sourceTree = "<group>"; };
+		7B6B0F4D1E5F36FF00CBC42A /* NSObject+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZXPUnicode.h"; sourceTree = "<group>"; };
+		7B6B0F4E1E5F36FF00CBC42A /* NSObject+ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZXPUnicode.m"; sourceTree = "<group>"; };
 		7BE900CE1E5E7CF000C482F4 /* HLCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE900D21E5E7CF000C482F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7BE900D41E5E7CF000C482F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,6 +104,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B6B0F3F1E5F346D00CBC42A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B6B0F461E5F34AC00CBC42A /* Cocoa.framework */,
+				7B6B0F421E5F34A800CBC42A /* AppKit.framework */,
+				7B6B0F431E5F34A800CBC42A /* CoreData.framework */,
+				7B6B0F401E5F346D00CBC42A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B6B0F481E5F36FF00CBC42A /* ZXPUnicode */ = {
+			isa = PBXGroup;
+			children = (
+				7B6B0F491E5F36FF00CBC42A /* NSArray+ ZXPUnicode.m */,
+				7B6B0F4A1E5F36FF00CBC42A /* NSArray+ZXPUnicode.h */,
+				7B6B0F4B1E5F36FF00CBC42A /* NSDictionary+ZXPUnicode.h */,
+				7B6B0F4C1E5F36FF00CBC42A /* NSDictionary+ZXPUnicode.m */,
+				7B6B0F4D1E5F36FF00CBC42A /* NSObject+ZXPUnicode.h */,
+				7B6B0F4E1E5F36FF00CBC42A /* NSObject+ZXPUnicode.m */,
+			);
+			path = ZXPUnicode;
+			sourceTree = "<group>";
+		};
 		7BE900C51E5E7CF000C482F4 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +135,7 @@
 				7BE900EA1E5E7CF100C482F4 /* HLCalendarTests */,
 				7BE900F51E5E7CF100C482F4 /* HLCalendarUITests */,
 				7BE900CF1E5E7CF000C482F4 /* Products */,
+				7B6B0F3F1E5F346D00CBC42A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +152,7 @@
 		7BE900D01E5E7CF000C482F4 /* HLCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				7B6B0F481E5F36FF00CBC42A /* ZXPUnicode */,
 				7BE901121E5E818000C482F4 /* HLCalendarVC */,
 				7BE900D41E5E7CF000C482F4 /* AppDelegate.h */,
 				7BE900D51E5E7CF000C482F4 /* AppDelegate.m */,
@@ -308,8 +347,11 @@
 			files = (
 				7BE900D91E5E7CF000C482F4 /* ViewController.m in Sources */,
 				7BE9011E1E5E818000C482F4 /* HLCalendarVC.m in Sources */,
+				7B6B0F511E5F36FF00CBC42A /* NSObject+ZXPUnicode.m in Sources */,
+				7B6B0F501E5F36FF00CBC42A /* NSDictionary+ZXPUnicode.m in Sources */,
 				7BE9011D1E5E818000C482F4 /* HLCalendar.m in Sources */,
 				7BE9011C1E5E818000C482F4 /* CalenderHeaderCRV.m in Sources */,
+				7B6B0F4F1E5F36FF00CBC42A /* NSArray+ ZXPUnicode.m in Sources */,
 				7BE900D61E5E7CF000C482F4 /* AppDelegate.m in Sources */,
 				7BE900D31E5E7CF000C482F4 /* main.m in Sources */,
 				7BE9011B1E5E818000C482F4 /* CalendarDayCVCell.m in Sources */,
@@ -550,6 +592,7 @@
 				7BE900FD1E5E7CF100C482F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BE900FE1E5E7CF100C482F4 /* Build configuration list for PBXNativeTarget "HLCalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +601,7 @@
 				7BE901001E5E7CF100C482F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BE901011E5E7CF100C482F4 /* Build configuration list for PBXNativeTarget "HLCalendarUITests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +610,7 @@
 				7BE901031E5E7CF100C482F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

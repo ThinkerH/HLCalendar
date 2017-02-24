@@ -7,6 +7,8 @@
 //
 
 #import "HLCalendar.h"
+#import "NSDictionary+ZXPUnicode.h"
+#import "NSArray+ZXPUnicode.h"
 
 #define WeekDays @[@"周日", @"周一", @"周二", @"周三", @"周四", @"周五", @"周六"]
 #define ChineseMonths @[@"正月", @"二月", @"三月", @"四月", @"五月", @"六月", @"七月", @"八月",@"九月", @"十月", @"冬月", @"腊月"]
@@ -85,33 +87,6 @@ static NSMutableDictionary *dateSource;
     return range.length;
 }
 
-//// 获取某月day的日期
-//+ (NSDate *)dateOfMonth:(FDCalendarMonth)calendarMonth WithDay:(NSInteger)day {
-//    NSCalendar *calendar = [NSCalendar currentCalendar];
-//    NSDate *date;
-//    
-//    switch (calendarMonth) {
-//        case FDCalendarMonthPrevious:
-//            date = [self previousMonthDate];
-//            break;
-//            
-//        case FDCalendarMonthCurrent:
-//            date = self.date;
-//            break;
-//            
-//        case FDCalendarMonthNext:
-//            date = [self nextMonthDate];
-//            break;
-//        default:
-//            break;
-//    }
-//    
-//    NSDateComponents *components = [calendar components:NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay fromDate:date];
-//    [components setDay:day];
-//    NSDate *dateOfDay = [calendar dateFromComponents:components];
-//    return dateOfDay;
-//}
-
 // 获取date当天的农历
 - (NSString *)chineseCalendarOfDate:(NSDate *)date {
     NSString *day;
@@ -154,6 +129,9 @@ static NSMutableDictionary *dateSource;
     }
     
     monthesArr = [months mutableCopy];
+    
+    
+    NSLog(@"======:%@",monthesArr);
     
     return monthesArr;
 }
@@ -254,6 +232,8 @@ static NSMutableDictionary *dateSource;
     }
     
     dateSource = [calendarData mutableCopy];
+    
+    NSLog(@"-------:%@",dateSource);
     
     return dateSource;
 }
