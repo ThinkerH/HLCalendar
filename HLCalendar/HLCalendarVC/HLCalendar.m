@@ -183,6 +183,8 @@ static NSMutableDictionary *dateSource;
         // 取出字典对应月的数据数组
         NSMutableArray *monthArr = [NSMutableArray array];
         
+        NSLog([NSString stringWithFormat:@"----:%ld----:%ld----:%ld",totalDaysOfMonth,firstWeekday,totalDaysOfMonth + firstWeekday]);
+        
         for (int j = 0; j < ceilf((totalDaysOfMonth + firstWeekday) / 7.0) * 7; j++) {
             
             if (j < firstWeekday) {

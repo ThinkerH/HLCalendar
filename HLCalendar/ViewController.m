@@ -12,7 +12,7 @@
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *btn;
 @property (weak, nonatomic) IBOutlet UITextField *monthesNum;
-
+@property (nonatomic, strong) NSDate *selectDate;
 @end
 
 @implementation ViewController
@@ -25,8 +25,9 @@
 - (IBAction)btnClickAction:(id)sender {
     HLCalendarVC *vc = [[HLCalendarVC alloc] init];
     vc.monthesNum = [_monthesNum.text intValue];
-    vc.selectDate = [NSDate date];
+    vc.selectDate = _selectDate ? _selectDate : [NSDate date];
     vc.selectDateBlock = ^(NSDate *date, NSString *dateStr) {
+        _selectDate = date;
         [_btn setTitle:dateStr forState:UIControlStateNormal];
     };
     UINavigationController *naviVC = [[UINavigationController alloc] initWithRootViewController:vc];
